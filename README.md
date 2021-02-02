@@ -1,11 +1,13 @@
 # BuscadorClinicas
 
-Rutas con routerlink
-activeroutes > para recivir elementos atravez del url
-Servicos > JSON y funciones de buscado de datos
-@input > enviar informacion del padre al hijo
-@output > recivir informacion del hijo hacia el padre
+- Rutas con routerlink
+- activeroutes > para recivir elementos atravez del url
+- Servicos > JSON y funciones de buscado de datos
+- @input > enviar informacion del padre al hijo
+- @output > recivir informacion del hijo hacia el padre
 
+
+![Screenshot 2021-02-02 140520](https://user-images.githubusercontent.com/46875264/106649530-b8b37800-655f-11eb-9017-45f4780426c4.png)
 
 
 
