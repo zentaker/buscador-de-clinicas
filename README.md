@@ -1,5 +1,15 @@
 # BuscadorClinicas
-modifi
+
+Rutas con routerlink
+activeroutes > para recivir elementos atravez del url
+Servicos > JSON y funciones de buscado de datos
+@input > enviar informacion del padre al hijo
+@output > recivir informacion del hijo hacia el padre
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
