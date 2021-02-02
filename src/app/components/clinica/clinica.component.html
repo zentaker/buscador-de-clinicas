@@ -1,0 +1,43 @@
+<h1>{{ clinica.clinica | uppercase  }}</h1> <!-- pipes de angular -->
+<hr>
+<div class="row animated fadeIn">
+    <div class="col-md-4  d-grid gap-2">
+        <img [src]="clinica.img" class="card-img-top" [alt]="clinica.clinica">
+
+        <button [routerLink]="['/clinicas']" class="btn btn-outline-danger btn-block">regresar</button>
+    </div>
+    <div class="col-md-8">
+        <br>
+        <br>
+        <h4>{{ clinica.Direccion }}</h4>
+        <h4><strong>Tel:</strong>{{clinica.Telefono}}</h4>
+        <a href="{{ clinica.url }}">Web Page</a>
+        <br>
+       
+
+        
+        <br>
+        <div class="row">
+            <div class="col">
+                <h5>Servicios</h5>
+
+                <p class="card-text"> {{ clinica.servicio1 }} </p>
+                <p class="card-text"> {{ clinica.servicio2 }} </p>
+                <p class="card-text"> {{ clinica.servicio3 }} </p>
+                <p class="card-text"> {{ clinica.servicio4 }} </p>
+
+            </div>
+            <div class="col">
+                <h5>Programas</h5>
+                <p class="card-text"> {{ clinica.programa1 }} </p>
+                <p class="card-text"> {{ clinica.programa2 }} </p>
+                <p class="card-text"> {{ clinica.programa3 }} </p>
+                
+
+            </div>
+        </div>
+        <br>
+
+       
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<h1>Clinicas de Lima</h1>
+<hr>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  
+      <!-- con input se le puede enviar informacion del padre al hijo
+      mediante []  -->
+    <!--   con el output se puede esuchar elementos enviados desde el hijo y se llama mediante () -->
+      <app-clinica-tarjeta (clinicaSeleccionada)="verClinica( $event )"  [clinica]="clinica" [index]="i" *ngFor="let clinica of clinicas; let i = index"></app-clinica-tarjeta>
+
+</div>

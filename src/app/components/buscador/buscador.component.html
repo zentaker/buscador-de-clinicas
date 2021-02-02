@@ -1,0 +1,18 @@
+<h1>Resultado de la busqueda...</h1>
+<h3 class="animated fadeIn fast">de: {{term}}</h3>
+<hr>
+<div>
+  <div class="col-md-12" *ngIf="clinicas.length == 0">
+    <div class="alert alert-info card animated fadeIn fast">
+      No se han encontrado resultados
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  
+  <!-- con input se le puede enviar informacion del padre al hijo
+  mediante []  -->
+  <app-clinica-tarjeta (clinicaSeleccionada)="verClinica( $event )"  [clinica]="clinica" [index]="clinica.idx" *ngFor="let clinica of clinicas"></app-clinica-tarjeta>
+
+</div>
+

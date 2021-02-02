@@ -1,0 +1,18 @@
+<div class="col">
+<div class="card animated fadeIn fast">
+    <img [src]="clinica.img" class="card-img-top" [alt]="clinica.clinica">
+    <div class="card-body d-grid gap-2">
+      <h5 class="card-title">{{ clinica.clinica }}</h5>
+      <p class="card-text">{{ clinica.Direccion }}</p>
+      <p class="card-text"> {{ clinica.servicio1 }} </p>
+      <p class="card-text"> {{ clinica.servicio2 }} </p>
+      <p class="card-text"> {{ clinica.servicio3 }} </p>
+      <p class="card-text"> {{ clinica.servicio4 }} </p>
+
+      <button 
+      type="button" (click)="verClinica()"  class="btn btn-outline-primary btn-block">Ver Mas</button>
+      
+    <!--   <a [routerLink]="['/clinica', i]"> ver mas</a> otra manera de hacerlo -->
+    </div>
+  </div>
+  </div>
